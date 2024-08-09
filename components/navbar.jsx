@@ -38,7 +38,7 @@ const Navbar = () => {
       <div id="navbar" className="relative flex h-12 justify-between items-center z-10 mx-4 md:mx-0 ">
         {/* Logo */}
         <div className="flex items-center">
-          <img className="w-32 h-11" src="/images/logo.svg" alt="Logo" />
+          <img className="w-32 h-11" src="/images/Logo2.svg" alt="Logo" />
         </div>
 
         {/* Desktop Menu */}
@@ -50,7 +50,7 @@ const Navbar = () => {
             Career
           </span>
           <button
-            className={`h-full w-[153px] flex items-center justify-center shadow-lg border-2 bg-blue-800 rounded-full font-medium text-lg leading-8 text-center text-white transition-all duration-300 ease-in-out transform hover:border-blue-800 hover:bg-white hover:text-blue-800 hover:scale-100 ${openSans.className}`}
+            className={`h-full w-[153px] flex items-center justify-center shadow-lg border-2 cutom-button-bg rounded-full font-medium text-lg leading-8 text-center text-white transition-all duration-300 ease-in-out transform hover:border-blue-800 hover:bg-white hover:text-blue-800 hover:scale-100 ${openSans.className}`}
           >
             Contact Us
           </button>
@@ -77,7 +77,7 @@ const Navbar = () => {
               Career
             </span>
             <button
-              className={`h-12 px-4 items-center border-2 rounded-full bg-blue-800 font-medium text-base text-white transition-all duration-300 ease-in-out transform hover:border-blue-800 hover:bg-white hover:text-blue-800 ${openSans.className}`}
+              className={`h-12 px-4 items-center border-2 rounded-full cutom-button-bg font-medium text-base text-white transition-all duration-300 ease-in-out transform hover:border-blue-800 hover:bg-white hover:text-blue-800 ${openSans.className}`}
             >
               Contact Us
             </button>
